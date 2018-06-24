@@ -1,0 +1,47 @@
+@import url('bootstrap.min.css');
+@font-face { font-family: SM; src: url('supermarket.ttf') format('truetype'); }
+body{
+    font-family: SM;
+    background-image: url("bg.png");
+    #background-color: gray;
+
+}
+.text{
+    font-family: SM;
+}
+
+.bd-example>.card {
+    max-width: 20rem;
+}
+.card {
+    max-width: 20rem;
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: .25rem;
+}
+.card-img-top {
+    border-radius: .25rem .25rem 0 0;
+}
+img {
+    vertical-align: middle;
+}
+.bd-example>.card {
+    max-width: 20rem;
+}
+img {
+    border: 0;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
